@@ -1,0 +1,172 @@
+.container {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.courses_info {
+  border: 1px solid black; }
+
+.courses_table {
+  width: 100%; }
+  .courses_table th {
+    text-align: left; }
+
+.menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  padding: 10px; }
+  .menu li {
+    padding: 10px;
+    list-style: none;
+    float: left; }
+
+.intro {
+  font-size: 20px;
+  margin-top: 20px; }
+
+.imgframe {
+  margin: 2px; }
+
+.top_header {
+  text-align: center; }
+
+.slide {
+  max-width: 500px;
+  max-height: 700px; }
+
+.pop {
+  border: 1px solid black; }
+
+.end {
+  bottom: 0;
+  text-align: center; }
+
+nav {
+  display: block;
+  text-align: center; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+
+.toolbar_ver {
+  vertical-align: top;
+  display: inline-block;
+  border-radius: 6px; }
+  .toolbar_ver a {
+    display: block;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8em 1.8em;
+    text-transform: uppercase;
+    font-size: 80%;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 #000;
+    position: relative; }
+  .toolbar_ver li {
+    position: relative; }
+    .toolbar_ver li:hover > a {
+      color: orange; }
+    .toolbar_ver li li a {
+      margin-top: 1px; }
+  .toolbar_ver > li {
+    float: left;
+    border-bottom: 4px #aaa solid;
+    margin-right: 1px; }
+    .toolbar_ver > li > a {
+      margin-bottom: 1px; }
+    .toolbar_ver > li:hover {
+      border-bottom-color: orange; }
+      .toolbar_ver > li:hover > a {
+        border-bottom-color: orange; }
+  .toolbar_ver > li:first-child {
+    border-radius: 4px 0 0 4px; }
+    .toolbar_ver > li:first-child > a {
+      border-radius: 4px 0 0 0; }
+  .toolbar_ver > li:last-child {
+    border-radius: 0 0 4px 0;
+    margin-right: 0; }
+    .toolbar_ver > li:last-child > a {
+      border-radius: 0 4px 0 0; }
+
+.toolbar_ver li a:first-child:nth-last-child(2):before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  top: 50%;
+  right: 5px; }
+
+.toolbar_ver ul {
+  position: absolute;
+  white-space: nowrap;
+  border-bottom: 5px solid  orange;
+  z-index: 1;
+  left: -99999em; }
+
+.toolbar_ver > li:hover > ul {
+  left: auto;
+  margin-top: 5px;
+  min-width: 100%; }
+
+.toolbar_ver > li li:hover > ul {
+  left: 100%;
+  margin-left: 1px;
+  top: -1px; }
+
+.toolbar_ver > li > a:first-child:nth-last-child(2):before {
+  border-top-color: #aaa; }
+
+.toolbar_ver > li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent;
+  border-bottom-color: orange;
+  margin-top: -5px; }
+
+.toolbar_ver li li > a:first-child:nth-last-child(2):before {
+  border-left-color: #aaa;
+  margin-top: -5px; }
+
+.toolbar_ver li li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent;
+  border-right-color: orange;
+  right: 10px; }
+
+.courses_info {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  font-size: 13px;
+  max-width: 200px;
+  max-height: 100px;
+  background: black;
+  color: white; }
+
+#info_3250 {
+  color: blue; }
+
+#info_3471 {
+  color: blue; }
+
+#info_3502 {
+  color: blue; }
+
+#info_3314 {
+  color: blue; }
+
+#info_4353 {
+  color: blue; }
+
+#info_3241 {
+  color: blue; }
+
+#info_3453 {
+  color: blue; }
